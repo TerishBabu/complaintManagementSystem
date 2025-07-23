@@ -48,7 +48,7 @@ let complaints = [
   },
 ];
 
-let nextId = { user: 3, product: 4, complaint: 3 }
+let nextId = { user: 3, product: 4, complaint: 3 };
 
 const App = () => {
   const [currentScreen, setCurrentScreen] = useState('login');
